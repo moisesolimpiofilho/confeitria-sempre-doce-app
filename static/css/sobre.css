@@ -74,11 +74,12 @@ nav ul li a {
 }
 
 .team-member img {
-    width: 100%;
-    height: auto;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 10px;
+    object-fit: cover;
 }
 
 .team-member h4 {
